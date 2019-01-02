@@ -1,1 +1,1 @@
-var a=1,b=2;function sort(r,n){return r-n}
+var a=1,b=2;function sort(n,o){return n-o}function fun(){console.log(111)}function funs(){console.log(222)}

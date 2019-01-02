@@ -42,9 +42,15 @@ gulp.task("default", gulp.series("devSass", "devServer", "watch"))
 //js
 gulp.task("js", function() {
     return gulp.src("./src/js/*.js")
+
+    .pipe(js())
         .pipe(concat("all.js"))
-        .pipe(js())
         .pipe(gulp.dest("./bulid/dist/js"))
+});
+
+//监听js
+gulp.task("watch", function() {
+    return gulp.watch("./src/js/*.js", gulp.series("js"))
 });
 
 //css

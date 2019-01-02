@@ -1,1 +1,1 @@
-var c=1,a=1;console.log(a+c);
+var c=1,a=1;console.log(a+c),console.log(a);
