@@ -1,0 +1,30 @@
+{
+    "name": "1610B",
+    "version": "1.0.0",
+    "description": "1610B",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ZM081994/1610B.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ZM081994/1610B/issues"
+    },
+    "homepage": "https://github.com/ZM081994/1610B#readme",
+    "dependencies": {
+        "gulp-sass": "^4.0.2",
+        "gulp-webserver": "*",
+        "gulp-clean-css": "*",
+        "gulp-uglify": "*",
+        "gulp-htmlmin": "*"
+    },
+    "devDependencies": {
+        "gulp-concat": "^2.6.1"
+    }
+}

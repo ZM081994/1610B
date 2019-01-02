@@ -1,0 +1,1 @@
+var c=1,a=1;console.log(a+c),console.log(a);a=1;var b=2;function sort(o,a){return o-a}
